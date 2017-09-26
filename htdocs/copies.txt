@@ -1,0 +1,20 @@
+#!c:/python36/python/python.exe
+import cgitb
+import cgi
+print "Content-type: text/html" 
+print "<h1> MyPythonWebpage </h1>"
+
+
+print ("<!DOCTYPE html>")
+print ("<html><head>")
+print ("")
+print ("</head><body>")
+print ("Hello.")
+print ("</body></html>")
+
+
+proxy_host = '127.0.0.1:8080'    
+url = 'http://127.0.0.1:8080/web.html'
+
+req = urllib.request.Request(url)
+req.set_proxy(proxy_host, 'http')

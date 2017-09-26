@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Gaurav Samtani<h1>
+<?php
+// phpinfo();
+?> 
+<!-- <input type="number" name="emp_id">
+<input type="text" name="username">
+<input type="password" name="password">
+<input type="text" name="firstname">
+<input type="text" name="lastname"> -->
+</body>
+</html>
